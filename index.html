@@ -8,13 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body class="font-inter h-screen relative bg-gradient-to-b from-gray-900 to-slate-800">
-    <div class="block bg-gray-800 block p-4 shadow-md w-screen text-white">Dev News Site
-        
+    <div class="block bg-gray-800 block p-4 shadow-md w-screen text-white flex justify-between items-center">
+
+        <span class="text-lg">Dev News Site</span>
+
+
+        <div class="flex gap-3">
+        <button class="hover:text-gray-300 transition">Latest News</button>
+        <button class="hover:text-gray-300 transition">Java</button>
+        <button class="hover:text-gray-300 transition">Spring Boot</button>
+        </div>
+
     </div>
 
     <section class="flex flex-wrap justify-center gap-4 p-6">
 
-         <div class="bg-gray-800 text-black overflow-visible flex flex-col p-6 rounded-lg shadow-lg m-6 absolute left-6 top-24 h-64 hover:scale-125 delay-50 duration-300 ease-in-out cursor-pointer active:scale-95">
+         <div class="bg-gray-800 text-black overflow-visible flex flex-col p-6 rounded-lg shadow-lg m-6 left-6 top-24 h-64 hover:scale-125 delay-50 duration-300 ease-in-out cursor-pointer active:scale-95">
             
             <ul class="list-disc list-inside">
             <h1 class="font-black text-red-500">Latest news</h1>
