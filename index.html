@@ -8,20 +8,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body class="font-inter min-h-screen relative bg-gradient-to-b from-gray-900 to-slate-800">
-    <div class="block bg-gray-800 block p-4 shadow-md w-screen text-white flex justify-between items-center sticky top-0 z-10">
+    <div class="block bg-gray-800 block p-4 shadow-md text-white flex justify-between items-center sticky top-0 z-10">
 
-        <span class="text-lg">Dev News Site</span>
+        <a href="index.html" class="text-lg">Dev News Site</span>
 
 
         <div class="flex gap-3">
-        <button class="hover:text-gray-300 transition">Latest News</button>
+        <a href="#latest-news" class="hover:text-gray-300 transition">Latest News</a>
         <a href="#java" class="hover:text-gray-300 transition">Java</a>
-        <button class="hover:text-gray-300 transition">Spring Boot</button>
+        <a href="#spring-boot" class="hover:text-gray-300 transition">Spring Boot</a>
         </div>
 
     </div>
 
-    <section class="flex flex-wrap justify-center gap-4 p-6">
+    <section id="latest-news" class="flex flex-wrap justify-center gap-4 p-6 scroll-mt-16">
 
          <div class="bg-gray-800 text-black overflow-visible flex flex-col p-6 rounded-lg shadow-lg m-6 left-6 top-24 h-64 hover:scale-125 delay-50 duration-300 ease-in-out cursor-pointer active:scale-95">
             
@@ -47,11 +47,19 @@
     </div>
 </section>
 
-<section id="java" class="mt-[800px]">
+<section id="java" class="scroll-mt-16 mt-[800px]">
 
     <h1>test</h1>
 
 </section>
+
+<section id="spring-boot" class="scroll-mt-16 mt-[800px]">
+
+    <h1>spring-boot</h1>
+
+</section>
+
+<div class="scroll-mt-16 mt-[800px]"></div>
 
 
 </body>
